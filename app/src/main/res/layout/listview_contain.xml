@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center_vertical"
+    >
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/tv1"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0207"
+        android:textSize="15dp"
+        android:text="车次号"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#519ee2"
+                android:textSize="12dp"
+                android:text="司机"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_below="@id/tv2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#519ee2"
+                android:textSize="12dp"
+                android:text="司机电话"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_below="@id/tv3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#519ee2"
+                android:textSize="12dp"
+                android:text="车牌号"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_below="@id/tv4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#519ee2"
+                android:textSize="12dp"
+                android:text="大车费用"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_below="@id/tv5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#519ee2"
+                android:textSize="12dp"
+                android:text="运单数量"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:layout_below="@id/tv6"
+                android:id="@+id/tv7"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ff0207"
+                android:textSize="12dp"
+                android:text="发车时间"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+     <Button
+         android:text="查看该车次状态"
+         android:id="@+id/bt_list"
+         android:textColor="#fff"
+         android:layout_alignRight="@id/tv4"
+         android:layout_alignBottom="@id/tv5"
+         android:layout_marginRight="20dp"
+         style="@style/text_flag_02"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>
